@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.imagem{
+    background-image: url("imagens/logo2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+}
+
+.centralizar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+header {
+    background-color: #0B0C0C;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.title {
+    text-align: center;
+}
+
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #0B0C0C;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+section {
+    text-align: center;
+}
+
+.product {
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+.rodape {
+    background-color: #0B0C0C;
+    color: white;
+    text-align: center;
+
+  }
+
